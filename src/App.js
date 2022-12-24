@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
+import SliderComponent from "./components/SliderComponent";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Container maxWidth="xl">
         <Grid container>
           <Grid item xs={12} md={6}>
-            <div>Left</div>
+            <SliderComponent/>
           </Grid>
           <Grid item xs={12} md={6}>
             <div>Right</div>
